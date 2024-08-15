@@ -23,19 +23,29 @@ Examine a custom rule in Suricata: <br/>
 
 <p align="center">
 Triggered a custom rule in Suricata: <br/>
-<img src="https://i.imgur.com/nufwPNh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FCXpEfU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 <p align="center">
-Compare hashes manually and with the cmp command: <br/>
-<img src="https://i.imgur.com/V7jrpHn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Examine eve.json output: <br/>
+<img src="https://i.imgur.com/coGKMem.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4vzfVOf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/woZcQsE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+Extracting specific event data from the eve.json using the jq command: <br/>
+<img src="https://i.imgur.com/0VfhKR4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/O3Ns52t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
 
 <h2>Summary</h2>
 
-- In this lab, I practiced computing hashes using the sha256sum command, displayed hashes using the cat command and compared hashes using the cmp command.
+- In this lab, I practiced running Suricata to trigger alerts on network traffic. I created custom rules and ran them in Suricata, monitored traffic capture in a packet capture file, and examined the fast.log and eve.json output. 
 
 <!--
  ```diff
